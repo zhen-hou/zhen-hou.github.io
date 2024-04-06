@@ -1,4 +1,4 @@
-# Ze Jiang
+# Zhen HOU
 This is Zhen HOU's personal [homepage](https://zhen-hou.github.io/).
 
 ## A short introduction
