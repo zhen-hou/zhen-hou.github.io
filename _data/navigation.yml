@@ -12,8 +12,8 @@ main:
   #- title: "Software"
   #  url: /software/
     
-  - title: "TA"
-    url: /ta/   
+  - title: "Teaching"
+    url: /teaching/   
     
   - title: "Exercises"
     url: /exercises/
