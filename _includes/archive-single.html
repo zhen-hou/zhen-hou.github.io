@@ -39,7 +39,7 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p>{{ post.type }}, <i>{{ post.venue }}</i>{% if post.teaching_period %}, {{ post.teaching_period }}{% elsif post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
         {% elsif post.collection == 'publications' %}
           {% if post.type == 'Preprint' %}
           <p>Preprint on <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
