@@ -18,8 +18,8 @@ main:
   - title: "Exercises"
     url: /exercises/
     
-  #- title: "CV"
-  #  url: /cv/
+  - title: "Resume"
+    url: /resume/
   - title: "Personal"
     url: /personal/
   # - title: "Group"
