@@ -3,6 +3,7 @@ layout: archive
 title: "Resume"
 permalink: /resume/
 author_profile: true
+published: false
 ---
 
 {% include base_path %}

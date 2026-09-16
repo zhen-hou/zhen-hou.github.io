@@ -6,9 +6,16 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+  - /resume/
 ---
 
-This is Zhen HOU's personal homepage.
+{% include base_path %}
 
-## A short introduction
-Zhen HOU is a first-year Ph.D. Student at [Department of Mathematics, HKUST](https://www.math.hkust.edu.hk/){:target="_blank"}, under the supervision of [Prof. Dong XIA](https://www.math.hkust.edu.hk/~madxia/){:target="_blank"}. Before that, he obtained his Bachelor's degree in Mathematics at [Shiing-Shen Chern Class](https://math.nankai.edu.cn/2023/0730/c5591a516908/page.htm){:target="_blank"}, [Nankai University](https://www.nankai.edu.cn/main.htm){:target="_blank"}, Tianjin, China. His research area is Statistics.
+I am a Ph.D. student in Statistics at the [Department of Mathematics, HKUST](https://www.math.hkust.edu.hk/), supervised by [Prof. Dong Xia](https://www.math.hkust.edu.hk/~madxia/). I joined HKUST in 2023 after receiving my Bachelor's degree in Mathematics from the Shiing-Shen Chern Class at [Nankai University](https://www.nankai.edu.cn/main.htm) (2019–2023).
+
+My research focuses on statistical inference under distribution shift, RKHS-based nonparametric regression, kernel methods, and bootstrap methods. I am particularly interested in finite-sample guarantees, uncertainty quantification, and out-of-sample model reliability.
+
+I also build reproducible PyTorch experiments to study large language model architectures, post-training, and evaluation, including attention and KV-cache efficiency, sparse MoE routing, SFT and preference optimization, and statistical and causal reasoning tasks.
+
+[Resume (English PDF)]({{ base_path }}/files/Zhen_Hou_Resume_EN.pdf){: .btn .btn--primary target="_blank" rel="noopener"}
+[简历（中文 PDF）]({{ base_path }}/files/Zhen_Hou_Resume_ZH.pdf){: .btn .btn--primary target="_blank" rel="noopener"}
