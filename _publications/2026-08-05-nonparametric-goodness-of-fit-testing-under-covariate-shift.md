@@ -7,6 +7,7 @@ date: 2026-08-05
 venue: "arXiv"
 excerpt: "Zhen Hou and Dong Xia."
 paperurl: "https://arxiv.org/abs/2608.04860"
+redirect_to: "https://arxiv.org/abs/2608.04860"
 citation: 'Hou, Z., &amp; Xia, D. (2026). "Nonparametric Goodness-of-fit Testing under Covariate Shift." <i>arXiv preprint</i> arXiv:2608.04860.'
 ---
 
