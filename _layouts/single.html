@@ -35,7 +35,7 @@ layout: default
         {% endif %}
         
         {% if page.collection == 'teaching' %}
-          <p>{{ page.type }}, <i>{{ page.venue }}</i>{% if page.teaching_period %}, {{ page.teaching_period }}{% elsif page.date %}, {{ page.date | date: "%Y" }}{% endif %}</p>
+          <p>{% if page.type %}{{ page.type }}, {% endif %}<i>{{ page.venue }}</i>{% if page.teaching_period %}, {{ page.teaching_period }}{% elsif page.date %}, {{ page.date | date: "%Y" }}{% endif %}</p>
         {% elsif page.collection == 'publications' and page.type == 'Preprint' %}
           <p>Preprint on <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
