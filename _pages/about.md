@@ -15,6 +15,11 @@ I am a Ph.D. candidate in Statistics at the [Department of Mathematics, HKUST](h
 
 My research focuses on statistical inference under distribution shift, RKHS-based nonparametric regression, kernel methods, and bootstrap methods. I am particularly interested in finite-sample guarantees, uncertainty quantification, and out-of-sample model reliability.
 
+<div id="site-visit-counter" class="site-visit-counter" hidden>
+  <span class="site-visit-counter__label">Total site visits</span>
+  <strong id="busuanzi_site_pv" class="site-visit-counter__value"></strong>
+</div>
+
 {% comment %}
 Resume buttons are temporarily hidden until the PDFs are updated.
 [Resume (English PDF)]({{ base_path }}/files/Zhen_Hou_Resume_EN.pdf){: .btn .btn--primary target="_blank" rel="noopener"}

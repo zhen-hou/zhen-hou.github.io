@@ -1,5 +1,30 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 <script src="https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js" defer></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var counter = document.getElementById("site-visit-counter");
+    var value = document.getElementById("busuanzi_site_pv");
+
+    if (!counter || !value) return;
+
+    function showCounterWhenReady() {
+      if (/\d/.test(value.textContent)) {
+        counter.hidden = false;
+        return true;
+      }
+      return false;
+    }
+
+    if (showCounterWhenReady()) return;
+
+    var observer = new MutationObserver(function () {
+      if (showCounterWhenReady()) observer.disconnect();
+    });
+
+    observer.observe(value, { childList: true, characterData: true, subtree: true });
+    window.setTimeout(function () { observer.disconnect(); }, 5000);
+  });
+</script>
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}

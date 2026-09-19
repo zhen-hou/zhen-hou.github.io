@@ -48,6 +48,33 @@
   font-size: $type-size-4;
 }
 
+.site-visit-counter {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.55em;
+  margin: 0.25em 0 1.5em;
+  padding: 0.7em 1em;
+  font-family: $sans-serif;
+  background: mix(#fff, $primary-color, 92%);
+  border-left: 0.25em solid $primary-color;
+  border-radius: $border-radius;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.site-visit-counter__label {
+  color: $text-color;
+  font-size: $type-size-6;
+}
+
+.site-visit-counter__value {
+  color: $primary-color;
+  font-size: $type-size-4;
+  line-height: 1;
+}
+
 .page__content {
 
   h2 {
