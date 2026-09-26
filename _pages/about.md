@@ -11,7 +11,7 @@ redirect_from:
 
 {% include base_path %}
 
-I am a Ph.D. candidate in Statistics at the [Department of Mathematics, HKUST](https://www.math.hkust.edu.hk/), supervised by [Prof. Dong Xia](https://www.math.hkust.edu.hk/~madxia/). Currently, I am a Research Intern at Tencent as part of its Qingyun Talent Program. I joined HKUST in 2023 after receiving my Bachelor's degree in Mathematics from the [Shiing-Shen Chern Class at Nankai University](https://math.nankai.edu.cn/ssbwsxblbw/list.htm) (2019–2023).
+I am a Ph.D. candidate in Statistics at the [Department of Mathematics, HKUST](https://www.math.hkust.edu.hk/), supervised by [Prof. Dong Xia](https://www.math.hkust.edu.hk/~madxia/). Currently, I am a Research Intern in Tencent's Qingyun Talent Program. I joined HKUST in 2023 after receiving my Bachelor's degree in Mathematics from the [Shiing-Shen Chern Class at Nankai University](https://math.nankai.edu.cn/ssbwsxblbw/list.htm) (2019–2023).
 
 My research focuses on statistical inference under distribution shift, RKHS-based nonparametric regression, kernel methods, and bootstrap methods. I am particularly interested in finite-sample guarantees, uncertainty quantification, and out-of-sample model reliability.
 
